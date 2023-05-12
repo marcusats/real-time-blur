@@ -65,7 +65,7 @@ The project primarily uses Next.js for the front-end client, a Node.js server fo
 
 ## Functionality
 
-The core functionality of this project lies in three main functions: `boxBlur()`, `blurFace()`, and `convertFaceLandmarksToFaceRegion()`. You can find these functions in the [blur.js](src/lib/ImageManipualtion/maskFace.js) file.
+The core functionality of this project lies in three main functions: `boxBlur()`, `blurFace()`, and `convertFaceLandmarksToFaceRegion()`. You can find these functions in the [maskFace.js](src/lib/ImageManipualtion/maskFace.js) file.
 
 - `boxBlur(imageData, radius)`: This function takes an ImageData object and a radius as input. It calculates and assigns average color values, resulting in a blur effect. [More details here](src/lib/ImageManipualtion/maskFace.js#1).
 
