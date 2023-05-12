@@ -1,0 +1,135 @@
+.container {
+	display: grid;
+	grid-template-columns: 7fr 3fr;
+}
+
+.myId {
+	margin-right: 5rem;
+	margin-top: 150px;
+	border-radius: 5px;
+	background: #c9d6ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #705f5f, #5e81f2); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#fbe3e3,
+		#657cd0
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 2rem;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	border: -3px solid #360101;
+}
+
+.call-button {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.video-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-content: center;
+	margin-top: 10rem;
+	margin-left: 10rem;
+}
+.button{
+	margin-top: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	background: -webkit-linear-gradient(to right, #705f5f, #5e81f2); 
+	background: linear-gradient(
+		to right,
+		#fbe3e3,
+		#657cd0
+	); 
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	font-size: 1rem;
+	font-weight: 800;
+	letter-spacing: 1px;
+	transition: all 0.3s ease;
+	width: fit-content;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #360101;
+	font-family: 'Courier New', Courier, monospace;
+	font-style: bold;
+	text-shadow: -1px 1px 0 #ffffff, 1px 1px 0 #ffffff, 1px -1px 0 #ffffff, -1px -1px 0 #ffffff;
+
+	
+}
+.button:hover{
+	background: -webkit-linear-gradient(to right, #705f5f, #5e81f2); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#fbe3e3,
+		#657cd0
+	); 
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+
+.option-button{
+
+	margin-top: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+	background: -webkit-linear-gradient(to right, #705f5f, #5e81f2); 
+	background: linear-gradient(
+		to right,
+		#fbe3e3,
+		#657cd0
+	); 
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	padding: 5px 10px;
+	font-size: 1rem;
+	font-weight: 800;
+	letter-spacing: 1px;
+	transition: all 0.3s ease;
+	width: 100px;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #360101;
+	font-family: 'Courier New', Courier, monospace;
+	font-style: bold;
+	text-shadow: -1px 1px 0 #ffffff, 1px 1px 0 #ffffff, 1px -1px 0 #ffffff, -1px -1px 0 #ffffff;
+
+}
+
+
+
+
+
+.funtions{
+	position: absolute;
+	top: 100px;
+	left: 10px;
+}
+.caller {
+	text-align: center;
+	color: #fff;
+}
+
+body{
+	background-color: #000;
+	color: #fff;
+
+}
+
