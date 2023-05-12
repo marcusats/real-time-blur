@@ -19,21 +19,21 @@ Before you start, ensure you have installed Node.js and npm (Node Package Manage
 
 Clone this repository to your local machine:
 
-\`\`\`bash
+```bash
 git clone https://github.com/marcusats/real-time-blur.git
-\`\`\`
+```
 
 Navigate to the project directory:
 
-\`\`\`bash
+```bash
 cd real-time-blur
-\`\`\`
+```
 
 Install the required dependencies:
 
-\`\`\`bash
+```bash
 npm i --legacy-peer-deps
-\`\`\`
+```
 
 ### Running the Program
 
@@ -43,17 +43,17 @@ You will need two terminal windows or tabs to run the client and server concurre
 
 In the first terminal, run the following command to start the server:
 
-\`\`\`bash
+```bash
 npm run serve
-\`\`\`
+```
 
 #### Running the Client
 
 In the second terminal, navigate to the project directory (if not already there) and run the following command to start the client:
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 Now, you should be able to access the application at `http://localhost:3000` (or the port number specified in your setup) in your web browser. You can access a simple blur demo by clicking on "Enter Blur Face Demo" on the home page.
 
